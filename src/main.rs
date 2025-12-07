@@ -2,7 +2,6 @@
 fn main() {
     //Let's find Mersenne Primes
     // M_n = 2^n - 1
-    //let mut results: Vec<u128> = Vec::new();
     let max = std::u32::MAX;
     for i in 0..max{
         if is_prime(i) == true {
